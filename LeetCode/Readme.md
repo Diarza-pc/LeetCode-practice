@@ -1,0 +1,1 @@
+Basically, this is just like a note sheet i made after i complete some LeetCode problem, to understand what i just doing than just write a solution of a problem without knowing what i just wrote.
