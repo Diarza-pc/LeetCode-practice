@@ -15,7 +15,6 @@ class Solution{
                 }
 
                 Couple[nums[i]] = i;
-                std::cout << Couple[nums[i]] << '\n';
             }
 
             
@@ -23,21 +22,15 @@ class Solution{
             return{};
         }
 };
-struct variabel{
-    int data;
-    int target;
-    int trail;
-    char quit;
-};
 
 int main() {
     Solution solution;
-    variabel verb;
 
-    std::vector<int> nums = {3, 2, 4};
-    int target = 6;
+    std::vector<int> nums = {2, 7, 11, 15};
+    int target = 9;
 
-    solution.twoSum(nums, target);
+    std::vector<int> result = solution.twoSum(nums, target);
+    std::cout << result[0] << " " << result[1];
     
     
     return 0;
